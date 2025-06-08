@@ -63,7 +63,7 @@ from digipin_encoder import get_digipin
 
 lat = 22.2433683
 lon = 73.2019148
-print(get_digipin(lat, lon))  # Output: 39J-438-TJC7
+print(get_digipin(lat, lon))  # Output: 3LC-L67-647F
 ```
 
 ### Decode DIGIPIN to Coordinates
