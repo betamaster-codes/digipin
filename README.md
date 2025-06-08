@@ -16,8 +16,8 @@ DIGIPIN divides India into a hierarchical grid of **4x4 subregions** down to ~3.
 
 ### Example:
 ```text
-Input Coordinates: 28.6139° N, 77.2090° E (New Delhi)
-Generated DIGIPIN: 39J-438-TJC7
+Input Coordinates: 22.2433683° N, 73.2019148° E 
+Generated DIGIPIN: 3LC-L67-647F
 ````
 
 ---
