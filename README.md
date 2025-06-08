@@ -50,13 +50,21 @@ Generated DIGIPIN: 39J-438-TJC7
 
 ## 🧑‍💻 How to Use
 
-###Usage###
+### 🔐 Encode Coordinates to DIGIPIN
 
+```python
 from digipin_encoder import get_digipin
 
-print(get_digipin(22.2433683, 73.2019148))
+# Example: Encode coordinates (latitude, longitude) to DIGIPIN
+digipin = get_digipin(22.2433683, 73.2019148)
+print("DIGIPIN:", digipin)  # Output: DIGIPIN: 3LC-L67-647F
 
-### Encode Coordinates to DIGIPIN
+from digipin_decoder import decode_digipin
+
+# Example: Decode a DIGIPIN back to approximate coordinates
+result = decode_digipin("3LC-L67-647F")
+print("Center Coordinates:", result['center'])
+print("Bounding Box:", result['bounding_box'])
 
 ```python
 from digipin_encoder import get_digipin
