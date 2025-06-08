@@ -50,19 +50,19 @@ Generated DIGIPIN: 39J-438-TJC7
 
 ## 🧑‍💻 How to Use
 
-###Usage
+###Usage###
 
 from digipin_encoder import get_digipin
 
-print(get_digipin(28.6139, 77.2090))
+print(get_digipin(22.2433683, 73.2019148))
 
 ### Encode Coordinates to DIGIPIN
 
 ```python
 from digipin_encoder import get_digipin
 
-lat = 28.6139
-lon = 77.2090
+lat = 22.2433683
+lon = 73.2019148
 print(get_digipin(lat, lon))  # Output: 39J-438-TJC7
 ```
 
@@ -71,8 +71,8 @@ print(get_digipin(lat, lon))  # Output: 39J-438-TJC7
 ```python
 from digipin_decoder import get_latlng_by_digipin
 
-code = "39J-438-TJC7"
-print(get_latlng_by_digipin(code))  # Output: 28.613901, 77.208998
+code = "3LC-L67-647F"
+print(get_latlng_by_digipin(code))  # Output: 22.2433683, 73.2019148
 ```
 
 ---
