@@ -130,12 +130,3 @@ DIGIPIN, Digital Address, Geo Coded Address, India Post, GIS, GPS Addressing, Op
 
 * Pyhton Developed by: **BetaMaster**
 
----
-
-```
-
-Let me know if you'd like:
-- A one-line tagline for repo visibility
-- A minimal `README.md` for quick browsing
-- CI/CD setup or GitHub Actions to publish this as a web tool
-```
