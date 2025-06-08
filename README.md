@@ -79,7 +79,7 @@ DIGIPIN is part of India’s initiative to build a **Digital Public Infrastructu
 
 ## 📚 Documentation
 
-Please refer to [`DIGIPIN_Technical_Document.pdf`](./DIGIPIN_Technical_Document.pdf) for:
+Please refer to for:
 
 * Code architecture
 * Grid logic and bounding box
