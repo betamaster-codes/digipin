@@ -50,6 +50,12 @@ Generated DIGIPIN: 39J-438-TJC7
 
 ## 🧑‍💻 How to Use
 
+###Usage
+
+from digipin_encoder import get_digipin
+
+print(get_digipin(28.6139, 77.2090))
+
 ### Encode Coordinates to DIGIPIN
 
 ```python
